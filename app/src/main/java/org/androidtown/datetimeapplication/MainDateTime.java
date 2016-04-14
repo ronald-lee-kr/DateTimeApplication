@@ -88,7 +88,7 @@ public class MainDateTime extends AppCompatActivity {
 
                 new AlertDialog.Builder(MainDateTime.this)
                         .setTitle("예약 확인")
-                        .setMessage(tvYear + "년" + tvMonth + "월" + tvDay + "일"
+                        .setMessage(tvYear + "년" + tvMonth + "월" + tvDay + "일 "
                         + tvHour + "시" + tvMinute + "분에 예약됨")
                         .setNeutralButton("확인", new DialogInterface.OnClickListener() {
                             @Override
