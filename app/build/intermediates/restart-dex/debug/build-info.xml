@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="5315571847028"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="152" />
+    <task
+        name="instant-run-dex"
+        duration="267" />
+    <task
+        name="instant-run-transform"
+        duration="63" />
+    <task
+        name="verifier"
+        duration="3" />
+
+    <artifact
+        location="D:\01 RL\AndroidStudioProjects\DateTimeApplication\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="4798575563531" >
+        <artifact
+            location="D:\01 RL\AndroidStudioProjects\DateTimeApplication\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="5267793578872"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="D:\01 RL\AndroidStudioProjects\DateTimeApplication\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="5315571847028"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\01 RL\AndroidStudioProjects\DateTimeApplication\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
